@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: Tarek-n8n
+    runtime: docker
+    dockerContext: .
+    dockerfilePath: Dockerfile
+    plan: free
